@@ -29,9 +29,18 @@ body {
     color: grey;
 }
 
-.fa-plus-circle:before {
-    content: "\f055";
-    color: rgb(235, 73, 73);
+.plussign {
+    display: inline-block;
+    height: 40px;
+    width: 30px;
+    padding-left: 10px;
+    margin-right: 5px;
+    margin-top: 5px;
+    border: 2px solid rgb(235, 73, 73);
+    border-radius: 50%;
+    background-color: rgb(235, 73, 73);
+    color: white;
+    font-weight: bold;
 }
 
 .add {
