@@ -86,11 +86,18 @@ a {
 
 .box {
     height: 350px;
-    width: 380px;
+    width: 340px;
     border: 2px solid rgb(235, 73, 73);
     border-radius: 10px;
     box-shadow: 3px 3px 10px rgb(160, 158, 158);
     text-align: center;
+    position: relative;
+}
+
+.btn {
+    position: absolute;
+    bottom: 0px;
+    right: 17px;
 }
 
 .forms {
