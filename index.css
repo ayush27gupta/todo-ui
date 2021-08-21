@@ -100,3 +100,10 @@ hr {
     width: 80%;
     margin-right: 0px;
 }
+
+a {
+    font-size: 35px;
+    color: grey;
+    margin-top: 9px;
+    text-decoration: none;
+}
