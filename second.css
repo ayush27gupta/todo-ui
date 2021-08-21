@@ -53,7 +53,7 @@ h1 span {
     padding-bottom: 10px;
 }
 
-a {
+#back {
     display: inline-block;
     text-decoration: none;
     color: grey;
@@ -97,7 +97,7 @@ a {
 .btn {
     position: absolute;
     bottom: 0px;
-    right: 17px;
+    right: 18px;
 }
 
 .forms {
