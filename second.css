@@ -94,12 +94,6 @@ h1 span {
     position: relative;
 }
 
-.btn {
-    position: absolute;
-    bottom: 0px;
-    right: 18px;
-}
-
 .forms {
     font-size: 20px;
 }
@@ -126,7 +120,7 @@ hr {
     background-color: rgb(235, 73, 73);
     color: white;
     font-weight: bold;
-    right: 405px;
+    right: 425px;
     bottom: 12px;
     position: absolute;
 }
