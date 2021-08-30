@@ -86,10 +86,12 @@ body {
   border: 2px solid rgb(235, 73, 73);
   border-radius: 1rem;
   box-shadow: 5px 5px 10px grey;
+  text-align: center;
 }
 
 .forms {
   font-size: 1rem;
+  text-align: center;
 }
 
 hr {
