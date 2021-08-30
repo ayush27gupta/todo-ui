@@ -63,13 +63,6 @@ i.fas.fa-plus-circle {
   font-size: 3rem;
 }
 
-.box5 {
-  display: none;
-}
-.box4 {
-  display: none;
-}
-
 .second {
   box-sizing: border-box;
   display: flex;
@@ -216,15 +209,6 @@ a {
     text-decoration: none;
     text-align: center;
   }
-
-  .box5 {
-    display: block;
-    text-align: center;
-  }
-  .box4 {
-    display: block;
-    text-align: center;
-  }
 }
 
 @media screen and (min-width: 768px) and (max-width: 1024px) {
@@ -320,14 +304,5 @@ a {
     font-size: 1rem;
     color: grey;
     text-decoration: none;
-  }
-
-  .box5 {
-    display: block;
-    text-align: center;
-  }
-  .box4 {
-    display: block;
-    text-align: center;
   }
 }
