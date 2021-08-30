@@ -176,10 +176,12 @@ a {
     box-shadow: 5px 5px 10px grey;
     margin: 1rem;
     padding-bottom: 2rem;
+    text-align: center;
   }
   .subhead {
     margin-left: 1rem;
     font-size: 1rem;
+    text-align: center;
   }
 
   .strike {
@@ -188,19 +190,23 @@ a {
 
   .forms {
     display: none;
+    text-align: center;
   }
 
   a {
     font-size: 1rem;
     color: grey;
     text-decoration: none;
+    text-align: center;
   }
 
   .box5 {
-    display: inherit;
+    display: block;
+    text-align: center;
   }
   .box4 {
-    display: inherit;
+    display: block;
+    text-align: center;
   }
 }
 
@@ -297,9 +303,11 @@ a {
   }
 
   .box5 {
-    display: inherit;
+    display: block;
+    text-align: center;
   }
   .box4 {
-    display: inherit;
+    display: block;
+    text-align: center;
   }
 }
