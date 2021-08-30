@@ -1,126 +1,295 @@
 body {
-    margin: 0px;
-    padding: 0px;
+  margin: 0px;
+  padding: 0px;
 }
 
 .container {
-    margin: 50px;
-    padding-left: 50px;
-    padding-right: 50px;
-    padding-bottom: 50px;
+  position: absolute;
+  top: 2rem;
+  left: 35%;
+  right: 35%;
+  width: 25%;
+  height: 35rem;
 }
 
 .first {
-    display: flex;
-    margin: 50px;
-    padding-left: 150px;
-    padding-right: 170px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 h1 {
-    width: 100%;
-    text-align: center;
-    border-bottom: 1px solid #000;
-    line-height: 0.1em;
-    margin: 10px 0 20px;
-    font-size: 50px;
+  box-sizing: border-box;
+  width: 100%;
+  text-align: center;
+  border-bottom: 1px solid #000;
+  line-height: 0.1em;
+  margin: 10px 0 20px;
+  font-size: 35px;
 }
 
 h1 span {
-    background: #fff;
-    padding: 0 10px;
+  background: #fff;
+  padding: 0 5px;
 }
 
 .fa-arrow-circle-left:before {
-    display: inline-block;
-    content: "\f0a8";
-    color: rgb(250, 60, 60);
+  display: inline-block;
+  content: "\f0a8";
+  color: rgb(250, 60, 60);
 }
 
 .fa,
 .fas {
-    font-weight: 900;
-    font-size: 40px;
+  font-weight: 900;
+  font-size: 40px;
+  margin-top: 20px;
 }
 
 .second {
-    display: flex;
-    justify-content: center;
-    margin-right: 30px;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .back {
-    padding-bottom: 10px;
+  padding-bottom: 0.8rem;
+  font-size: 2.5rem;
+  margin-top: 1.5rem;
 }
 
 #back {
-    display: inline-block;
-    text-decoration: none;
-    color: grey;
-    font-weight: 500;
-    font-size: 30px;
-    bottom: 5px;
-    margin-left: 15px;
-    margin-top: 3px;
+  display: inline-block;
+  text-decoration: none;
+  color: grey;
+  font-weight: 500;
+  font-size: 30px;
+  bottom: 5px;
+  margin-left: 15px;
+  margin-top: 3px;
 }
 
 .third {
-    display: flex;
-    justify-content: center;
-    margin-top: 30px;
-    position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .subhead {
-    font-size: 25px;
-    color: rgb(235, 73, 73);
-    margin-bottom: 10px;
+  font-size: 25px;
+  color: rgb(235, 73, 73);
+  margin-bottom: 10px;
 }
 
 .strike {
-    text-decoration: line-through;
-    font-size: 20px;
-    color: rgb(235, 73, 73);
-    font-weight: 500;
+  text-decoration: line-through;
+  font-size: 1.4em;
+  color: rgb(235, 73, 73);
+  font-weight: bold;
 }
 
 .box {
-    height: 350px;
-    width: 340px;
+  box-sizing: border-box;
+  height: 25rem;
+  width: 80%;
+  margin-left: 0.4em;
+  border: 2px solid rgb(235, 73, 73);
+  border-radius: 10px;
+  box-shadow: 3px 3px 10px rgb(160, 158, 158);
+  text-align: center;
+}
+
+.forms {
+  font-size: 1em;
+  position: relative;
+}
+
+hr {
+  width: 80%;
+  margin-left: 3.5rem;
+}
+
+i {
+  color: rgb(235, 73, 73);
+}
+
+.plus {
+  position: absolute;
+  right: 0.5rem;
+  margin-top: 12rem;
+}
+@media screen and (min-width: 0px) and (max-width: 767px) {
+  * {
+    margin: 0;
+    padding: 0;
+  }
+
+  .container {
+    position: absolute;
+    top: 2rem;
+    left: auto;
+    right: auto;
+    width: 100%;
+    height: auto;
+  }
+  .first {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .fa-arrow-circle-left:before {
+    content: "\f0a8";
+    color: rgb(250, 60, 60);
+
+    position: absolute;
+    left: 2.5rem;
+    font-size: 2rem;
+    top: 0rem;
+    margin-bottom: 1rem;
+  }
+
+  h1 {
+    margin-top: 0.8rem;
+    border: 2px solid white;
+  }
+  h1 span {
+    background: #fff;
+    padding: 0 5px;
+  }
+  #back {
+    display: none;
+  }
+  .heading {
+    box-sizing: border-box;
+    font-size: 2rem;
+    font-weight: bold;
+    color: rgba(0, 0, 0, 0.699);
+    margin-right: 5rem;
+  }
+
+  .subhead {
+    box-sizing: border-box;
+    font-size: 1.5rem;
+    color: rgb(235, 73, 73);
+    margin: 1rem;
+  }
+  .strike {
+    box-sizing: border-box;
+    text-decoration: line-through;
+    font-size: 1.4em;
+    color: rgb(235, 73, 73);
+    font-weight: bold;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+  }
+  .box {
+    box-sizing: border-box;
+    height: 25rem;
+    width: 80%;
+    margin-left: 0.4em;
     border: 2px solid rgb(235, 73, 73);
     border-radius: 10px;
     box-shadow: 3px 3px 10px rgb(160, 158, 158);
     text-align: center;
-    position: relative;
+  }
 }
 
-.forms {
-    font-size: 20px;
-}
-
-hr {
-    width: 80%;
-    margin-right: 0px;
-}
-
-.add {
-    font-size: 35px;
-    color: grey;
-    margin-top: 9px;
-}
-
-.plussign {
-    height: 40px;
-    width: 30px;
-    padding-left: 10px;
-    margin-right: 75px;
-    margin-top: 5px;
-    border: 2px solid rgb(235, 73, 73);
-    border-radius: 50%;
-    background-color: rgb(235, 73, 73);
-    color: white;
-    font-weight: bold;
-    right: 425px;
-    bottom: 12px;
+@media screen and (min-width: 767px) and (max-width: 1023px) {
+  * {
+    margin: 0;
+    padding: 0;
+  }
+  .container {
+    box-sizing: border-box;
     position: absolute;
+    top: 2rem;
+    left: auto;
+    right: auto;
+    width: 100%;
+    height: auto;
+  }
+  .first {
+    display: flex;
+    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2rem;
+  }
+  .fa-arrow-circle-left:before {
+    content: "\f0a8";
+    color: rgb(250, 60, 60);
+
+    position: absolute;
+    left: 2.5rem;
+    font-size: 2rem;
+    top: 0rem;
+    margin-bottom: 1rem;
+  }
+
+  h1 {
+    margin-top: 0.8rem;
+    border: 2px solid white;
+  }
+  h1 span {
+    background: #fff;
+    padding: 0 5px;
+  }
+  #back {
+    display: none;
+  }
+  .heading {
+    box-sizing: border-box;
+    font-size: 2em;
+    font-weight: bold;
+    color: rgba(0, 0, 0, 0.699);
+    margin-right: 8em;
+    margin-left: 5em;
+  }
+  .second {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .subhead {
+    box-sizing: border-box;
+    font-size: 1.5rem;
+    color: rgb(235, 73, 73);
+    margin: 1rem;
+  }
+  .strike {
+    text-decoration: line-through;
+    font-size: 1.4em;
+    color: rgb(235, 73, 73);
+    font-weight: bold;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+  }
+  .box {
+    box-sizing: border-box;
+    height: 25rem;
+    width: 50%;
+    margin-left: 0.4em;
+    border: 2px solid rgb(235, 73, 73);
+    border-radius: 10px;
+    box-shadow: 3px 3px 10px rgb(160, 158, 158);
+    text-align: center;
+    margin-bottom: 2em;
+  }
+  .forms {
+    font-size: 1rem;
+    position: relative;
+  }
+  hr {
+    width: 80%;
+    margin-left: 3.5rem;
+  }
+  i {
+    color: rgb(235, 73, 73);
+  }
+  .plus {
+    position: absolute;
+    right: 0.5rem;
+    margin-top: 13rem;
+  }
 }
